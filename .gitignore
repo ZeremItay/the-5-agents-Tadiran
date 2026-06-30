@@ -1,0 +1,22 @@
+# ===== סודות / משתני סביבה =====
+# אסור להעלות את .env ל-Git! מכיל מפתחות API אמיתיים.
+.env
+.env.local
+.env.*.local
+
+# ===== מערכת הפעלה / עורך =====
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ===== Node (אם נוסיף בהמשך) =====
+node_modules/
+npm-debug.log*
+
+# ===== Python (אם נוסיף בהמשך) =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
